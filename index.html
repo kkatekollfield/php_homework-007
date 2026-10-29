@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+<head><title>Загрузка файла</title></head>
+<body>
+    <form action="upload.php" method="post" enctype="multipart/form-data">
+        <label>
+            С каким именем сохранить файл на сервере:
+            <input type="text" name="file_name">
+        </label>
+        <br>
+        <label>
+            Выберите файл:
+            <input type="file" name="content">
+        </label>
+        <br>
+        <button type="submit">Загрузить</button>
+    </form>
+</body>
+</html>
